@@ -20,8 +20,6 @@ int		main(int argc, char *argv[])
 		std::cout << tmp;
 		if (i == argc - 1)
 			std::cout << "\n";
-		else
-			std::cout << " ";
 	}
 	return (0);
 }
