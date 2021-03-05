@@ -102,7 +102,7 @@ FragTrap::FragTrap()
 	this->Max_hit_points = 100;
 	this->Energy_points = 100;
 	this->Level = 1;
-	this->name = "FragTrap";
+	this->name = "Default";
 	this->Melee_attack_damage = 30;
 	this->Ranged_attack_damage = 20;
 	this->Armor_damage_reduction = 5;
