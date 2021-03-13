@@ -11,7 +11,7 @@ protected:
 public:
 	std::string		getName(void);
 	void			setName(std::string name);
-	void			getPolymorphed() const;
+	virtual void	getPolymorphed() const;
 	Victim(std::string name);
 	Victim(Victim &obj);
 	~Victim();
