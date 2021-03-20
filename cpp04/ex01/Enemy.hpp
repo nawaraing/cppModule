@@ -3,7 +3,7 @@
 
 #include <string>
 
-class Enemy
+class Enemy 
 {
 private:
 	int				hp;

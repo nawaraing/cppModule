@@ -8,6 +8,7 @@
 class Peon : public Victim
 {
 private:
+	int		num;
 public:
 	void			getPolymorphed() const;
 	Peon(std::string name);
@@ -16,5 +17,4 @@ public:
 	Peon &operator=(Peon &obj);
 };
 std::ostream &operator<<(std::ostream &out, Peon &obj);
-
 #endif
