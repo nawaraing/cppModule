@@ -2,6 +2,7 @@
 #define ARRAY_HPP
 
 #include <exception>
+#include <iostream>
 
 template <typename T>
 class Array
@@ -13,7 +14,7 @@ public:
 	Array();
 	Array(unsigned int n);
 	Array(Array const & obj);
-	virtual ~Array();
+	~Array();
 	Array & operator=(Array const & obj);
 	T & operator[](unsigned int idx);
 	unsigned int size() const;
@@ -23,4 +24,5 @@ public:
 	};
 };
 
+#include "Array.ipp"
 #endif
