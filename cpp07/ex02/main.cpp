@@ -15,9 +15,6 @@ int			main(void)
 	}
 	std::cout << "b size: " << b.size() << std::endl;
 	for (unsigned int i = 0; i < b.size(); i++)
-		std::cout << b[i] << " ";
-	std::cout << std::endl;
-	for (unsigned int i = 0; i < b.size(); i++)
 		b[i] = i;
 	for (unsigned int i = 0; i < b.size(); i++)
 		std::cout << b[i] << " ";
