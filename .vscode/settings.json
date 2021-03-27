@@ -67,6 +67,11 @@
 		"__functional_03": "cpp",
 		"climits": "cpp",
 		"memory_resource": "cpp",
-		"filesystem": "cpp"
+		"filesystem": "cpp",
+		"list": "cpp",
+		"__tree": "cpp",
+		"__memory": "cpp",
+		"queue": "cpp",
+		"set": "cpp"
 	}
 }
