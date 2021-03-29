@@ -24,6 +24,19 @@ void Span::addNumber(int num)
 		std::cerr << e.what() << std::endl;
 	}
 }
+void Span::addVector(const std::vector<int> v)
+{
+	try {
+		if (_vec.size() + v.size() > _n)
+			throw Span::TooManyArg();
+		for (unsigned int i = 0; i < v.size(); i++)
+			_vec.push_back(v[i]);
+	}
+	catch (const std::exception &e)
+	{
+		std::cerr << e.what() << std::endl;
+	}
+}
 long long Span::shortestSpan()
 {
 	try
